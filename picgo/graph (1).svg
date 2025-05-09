@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351pt" height="830pt" viewBox="0.00 0.00 351.49 829.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 825.6)">
+<title>ChannelCreationFlow</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-825.6 347.485,-825.6 347.485,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<polygon fill="none" stroke="#000000" points="318.7019,-821.6 187.2981,-821.6 187.2981,-785.6 318.7019,-785.6 318.7019,-821.6"/>
+<text text-anchor="middle" x="253" y="-799.4" font-family="Times,serif" font-size="14.00" fill="#000000">用户进入创作中心</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<polygon fill="none" stroke="#000000" points="335.249,-748.4019 170.751,-748.4019 170.751,-707.1981 335.249,-707.1981 335.249,-748.4019"/>
+<text text-anchor="middle" x="253" y="-732" font-family="Times,serif" font-size="14.00" fill="#000000">选择创建方式</text>
+<text text-anchor="middle" x="253" y="-715.2" font-family="Times,serif" font-size="14.00" fill="#000000">(从零开始/使用模板)</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="#000000" d="M253,-785.2509C253,-777.315 253,-767.8041 253,-758.8258"/>
+<polygon fill="#000000" stroke="#000000" points="256.5001,-758.6568 253,-748.6568 249.5001,-758.6569 256.5001,-758.6568"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<polygon fill="none" stroke="#000000" points="311.5884,-669.8019 194.4116,-669.8019 194.4116,-628.5981 311.5884,-628.5981 311.5884,-669.8019"/>
+<text text-anchor="middle" x="253" y="-653.4" font-family="Times,serif" font-size="14.00" fill="#000000">填写基本信息</text>
+<text text-anchor="middle" x="253" y="-636.6" font-family="Times,serif" font-size="14.00" fill="#000000">(名称,描述,图标...)</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="#000000" d="M253,-707.1488C253,-698.9105 253,-689.2489 253,-680.202"/>
+<polygon fill="#000000" stroke="#000000" points="256.5001,-679.9862 253,-669.9862 249.5001,-679.9862 256.5001,-679.9862"/>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<polygon fill="none" stroke="#000000" points="264.0668,-591.2019 127.9332,-591.2019 127.9332,-549.9981 264.0668,-549.9981 264.0668,-591.2019"/>
+<text text-anchor="middle" x="196" y="-574.8" font-family="Times,serif" font-size="14.00" fill="#000000">选择/定制主播声音</text>
+<text text-anchor="middle" x="196" y="-558" font-family="Times,serif" font-size="14.00" fill="#000000">(预设/声音克隆)</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="#000000" d="M238.0239,-628.5488C231.595,-619.6837 223.9709,-609.1704 216.9932,-599.5485"/>
+<polygon fill="#000000" stroke="#000000" points="219.7781,-597.4268 211.074,-591.3862 214.1113,-601.5363 219.7781,-597.4268"/>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<polygon fill="none" stroke="#000000" points="272.3073,-512.6019 61.6927,-512.6019 61.6927,-471.3981 272.3073,-471.3981 272.3073,-512.6019"/>
+<text text-anchor="middle" x="167" y="-496.2" font-family="Times,serif" font-size="14.00" fill="#000000">定义内容策略</text>
+<text text-anchor="middle" x="167" y="-479.4" font-family="Times,serif" font-size="14.00" fill="#000000">(节目段类型, 权重, 提示词模板)</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="#000000" d="M188.3806,-549.9488C185.2749,-541.5314 181.6211,-531.6281 178.221,-522.4129"/>
+<polygon fill="#000000" stroke="#000000" points="181.4144,-520.9565 174.6692,-512.7862 174.8471,-523.3795 181.4144,-520.9565"/>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<polygon fill="none" stroke="#000000" points="224.2219,-434.2 93.7781,-434.2 93.7781,-398.2 224.2219,-398.2 224.2219,-434.2"/>
+<text text-anchor="middle" x="159" y="-412" font-family="Times,serif" font-size="14.00" fill="#000000">配置互动设置</text>
+</g>
+<!-- E&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>E-&gt;F</title>
+<path fill="none" stroke="#000000" d="M164.814,-471.2873C163.9361,-462.9698 162.9104,-453.2512 161.967,-444.3124"/>
+<polygon fill="#000000" stroke="#000000" points="165.4415,-443.8852 160.9111,-434.3078 158.4801,-444.62 165.4415,-443.8852"/>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<polygon fill="none" stroke="#000000" points="185.373,-361.2 70.627,-361.2 70.627,-325.2 185.373,-325.2 185.373,-361.2"/>
+<text text-anchor="middle" x="128" y="-339" font-family="Times,serif" font-size="14.00" fill="#000000">预览频道效果</text>
+</g>
+<!-- F&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>F-&gt;G</title>
+<path fill="none" stroke="#000000" d="M151.3371,-398.1551C147.7974,-389.8196 143.5177,-379.7416 139.5949,-370.5042"/>
+<polygon fill="#000000" stroke="#000000" points="142.8126,-369.1267 135.6822,-361.2904 136.3694,-371.8629 142.8126,-369.1267"/>
+</g>
+<!-- H -->
+<g id="node8" class="node">
+<title>H</title>
+<polygon fill="none" stroke="#000000" points="251.1417,-36 160.8583,-36 160.8583,0 251.1417,0 251.1417,-36"/>
+<text text-anchor="middle" x="206" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">调整与迭代</text>
+</g>
+<!-- G&#45;&gt;H -->
+<g id="edge7" class="edge">
+<title>G-&gt;H</title>
+<path fill="none" stroke="#000000" d="M70.7389,-329.2278C36.6582,-317.1112 0,-295.6147 0,-259.2 0,-259.2 0,-259.2 0,-104.8 0,-71.9895 89.8685,-44.6545 150.8899,-29.8756"/>
+<polygon fill="#000000" stroke="#000000" points="151.871,-33.2401 160.7924,-27.5254 150.2544,-26.4293 151.871,-33.2401"/>
+<text text-anchor="middle" x="22.2185" y="-180.4" font-family="Times,serif" font-size="10.00" fill="#000000">需要调整</text>
+</g>
+<!-- I -->
+<g id="node9" class="node">
+<title>I</title>
+<polygon fill="none" stroke="#000000" points="163.8739,-277.2 88.1261,-277.2 88.1261,-241.2 163.8739,-241.2 163.8739,-277.2"/>
+<text text-anchor="middle" x="126" y="-255" font-family="Times,serif" font-size="14.00" fill="#000000">发布频道</text>
+</g>
+<!-- G&#45;&gt;I -->
+<g id="edge10" class="edge">
+<title>G-&gt;I</title>
+<path fill="none" stroke="#000000" d="M127.566,-324.9733C127.3066,-314.0758 126.9713,-299.9946 126.6776,-287.6587"/>
+<polygon fill="#000000" stroke="#000000" points="130.1703,-287.305 126.4331,-277.3912 123.1722,-287.4717 130.1703,-287.305"/>
+<text text-anchor="middle" x="147.277" y="-298.2" font-family="Times,serif" font-size="10.00" fill="#000000">确认发布</text>
+</g>
+<!-- H&#45;&gt;C -->
+<g id="edge8" class="edge">
+<title>H-&gt;C</title>
+<path fill="none" stroke="#000000" d="M246.8399,-36.0491C272.5881,-50.4957 301,-73.523 301,-104.8 301,-570.6 301,-570.6 301,-570.6 301,-589.045 291.2531,-606.8271 280.5436,-620.7983"/>
+<polygon fill="#000000" stroke="#000000" points="277.8166,-618.6041 274.1932,-628.5601 283.2344,-623.0367 277.8166,-618.6041"/>
+<text text-anchor="middle" x="322.2425" y="-340.2" font-family="Times,serif" font-size="10.00" fill="#000000">返回修改</text>
+</g>
+<!-- H&#45;&gt;G -->
+<g id="edge9" class="edge">
+<title>H-&gt;G</title>
+<path fill="none" stroke="#000000" d="M212.3267,-36.0371C217.8538,-53.4213 225,-80.5808 225,-104.8 225,-259.2 225,-259.2 225,-259.2 225,-286.0648 203.4751,-306.2593 180.7047,-320.1065"/>
+<polygon fill="#000000" stroke="#000000" points="178.9054,-317.1035 171.959,-325.1034 182.3781,-323.1814 178.9054,-317.1035"/>
+<text text-anchor="middle" x="249.0235" y="-180.4" font-family="Times,serif" font-size="10.00" fill="#000000">重新预览</text>
+</g>
+<!-- J -->
+<g id="node10" class="node">
+<title>J</title>
+<polygon fill="none" stroke="#000000" points="189.1381,-204.0019 62.8619,-204.0019 62.8619,-162.7981 189.1381,-162.7981 189.1381,-204.0019"/>
+<text text-anchor="middle" x="126" y="-187.6" font-family="Times,serif" font-size="14.00" fill="#000000">频道上线</text>
+<text text-anchor="middle" x="126" y="-170.8" font-family="Times,serif" font-size="14.00" fill="#000000">(进入市场/可收听)</text>
+</g>
+<!-- I&#45;&gt;J -->
+<g id="edge11" class="edge">
+<title>I-&gt;J</title>
+<path fill="none" stroke="#000000" d="M126,-240.8509C126,-232.915 126,-223.4041 126,-214.4258"/>
+<polygon fill="#000000" stroke="#000000" points="129.5001,-214.2568 126,-204.2568 122.5001,-214.2569 129.5001,-214.2568"/>
+</g>
+<!-- K -->
+<g id="node11" class="node">
+<title>K</title>
+<polygon fill="none" stroke="#000000" points="194.1569,-125.4019 75.8431,-125.4019 75.8431,-84.1981 194.1569,-84.1981 194.1569,-125.4019"/>
+<text text-anchor="middle" x="135" y="-109" font-family="Times,serif" font-size="14.00" fill="#000000">管理已发布频道</text>
+<text text-anchor="middle" x="135" y="-92.2" font-family="Times,serif" font-size="14.00" fill="#000000">(编辑, 查看数据)</text>
+</g>
+<!-- J&#45;&gt;K -->
+<g id="edge12" class="edge">
+<title>J-&gt;K</title>
+<path fill="none" stroke="#000000" d="M128.3646,-162.7488C129.308,-154.5105 130.4143,-144.8489 131.4502,-135.802"/>
+<polygon fill="#000000" stroke="#000000" points="134.9595,-135.9195 132.6199,-125.5862 128.0049,-135.1231 134.9595,-135.9195"/>
+</g>
+<!-- K&#45;&gt;H -->
+<g id="edge13" class="edge">
+<title>K-&gt;H</title>
+<path fill="none" stroke="#000000" d="M152.1871,-83.7881C161.9502,-71.8524 174.2581,-56.8056 184.6382,-44.1155"/>
+<polygon fill="#000000" stroke="#000000" points="187.5127,-46.1294 191.135,-36.173 182.0944,-41.6974 187.5127,-46.1294"/>
+<text text-anchor="middle" x="187.0545" y="-57" font-family="Times,serif" font-size="10.00" fill="#000000">编辑</text>
+</g>
+</g>
+</svg>
