@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="692pt" height="510pt" viewBox="0.00 0.00 692.43 509.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 505.6)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-505.6 688.4299,-505.6 688.4299,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<polygon fill="none" stroke="#000000" points="512.84,-501.6 394.8108,-501.6 394.8108,-465.6 512.84,-465.6 512.84,-501.6"/>
+<text text-anchor="middle" x="453.8254" y="-479.4" font-family="Times,serif" font-size="14.00" fill="#000000">用户设备/浏览器</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<polygon fill="none" stroke="#000000" points="453.8254,-429.7002 302.7598,-388 453.8254,-346.2998 604.891,-388 453.8254,-429.7002"/>
+<text text-anchor="middle" x="453.8254" y="-392.2" font-family="Times,serif" font-size="14.00" fill="#000000">前端应用</text>
+<text text-anchor="middle" x="453.8254" y="-375.4" font-family="Times,serif" font-size="14.00" fill="#000000">(UI, 播放控制, 本地数据)</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="#000000" d="M453.8254,-465.1674C453.8254,-457.8349 453.8254,-448.9971 453.8254,-439.9594"/>
+<polygon fill="#000000" stroke="#000000" points="457.3255,-439.7403 453.8254,-429.7403 450.3255,-439.7404 457.3255,-439.7403"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<polygon fill="none" stroke="#000000" points="241.9087,-310.4 79.7421,-310.4 79.7421,-274.4 241.9087,-274.4 241.9087,-310.4"/>
+<text text-anchor="middle" x="160.8254" y="-288.2" font-family="Times,serif" font-size="14.00" fill="#000000">内容调度与缓冲区管理</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="#000000" d="M384.3885,-365.3441C336.3598,-349.6734 272.8831,-328.9622 225.8425,-313.6138"/>
+<polygon fill="#000000" stroke="#000000" points="226.658,-310.1983 216.0655,-310.4237 224.4866,-316.853 226.658,-310.1983"/>
+</g>
+<!-- H -->
+<g id="node8" class="node">
+<title>H</title>
+<polygon fill="none" stroke="#000000" points="684.5346,-310.4 557.1162,-310.4 557.1162,-274.4 684.5346,-274.4 684.5346,-310.4"/>
+<text text-anchor="middle" x="620.8254" y="-288.2" font-family="Times,serif" font-size="14.00" fill="#000000">音频可视化模块</text>
+</g>
+<!-- B&#45;&gt;H -->
+<g id="edge10" class="edge">
+<title>B-&gt;H</title>
+<path fill="none" stroke="#000000" d="M503.0277,-359.8339C527.6596,-345.7332 557.1111,-328.8736 580.4036,-315.5397"/>
+<polygon fill="#000000" stroke="#000000" points="582.3884,-318.4364 589.3281,-310.4308 578.9107,-312.3614 582.3884,-318.4364"/>
+</g>
+<!-- I -->
+<g id="node9" class="node">
+<title>I</title>
+<polygon fill="none" stroke="#000000" points="403.0428,-310.4 306.608,-310.4 306.608,-274.4 403.0428,-274.4 403.0428,-310.4"/>
+<text text-anchor="middle" x="354.8254" y="-288.2" font-family="Times,serif" font-size="14.00" fill="#000000">用户交互输入</text>
+</g>
+<!-- B&#45;&gt;I -->
+<g id="edge11" class="edge">
+<title>B-&gt;I</title>
+<path fill="none" stroke="#000000" d="M420.0321,-355.3673C407.2581,-343.032 392.9273,-329.1933 380.9606,-317.6377"/>
+<polygon fill="#000000" stroke="#000000" points="383.1032,-314.8411 373.4783,-310.4123 378.2406,-319.8766 383.1032,-314.8411"/>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<polygon fill="none" stroke="#000000" points="295.8254,-238.5002 165.9866,-196.8 295.8254,-155.0998 425.6642,-196.8 295.8254,-238.5002"/>
+<text text-anchor="middle" x="295.8254" y="-201" font-family="Times,serif" font-size="14.00" fill="#000000">API服务层</text>
+<text text-anchor="middle" x="295.8254" y="-184.2" font-family="Times,serif" font-size="14.00" fill="#000000">(AI, TTS, 数据存储)</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="#000000" d="M186.5356,-274.1933C203.5469,-262.1469 226.3962,-245.9662 246.804,-231.5144"/>
+<polygon fill="#000000" stroke="#000000" points="248.9402,-234.2904 255.0785,-225.6549 244.8948,-228.5777 248.9402,-234.2904"/>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<polygon fill="none" stroke="#000000" points="263.8922,-119.0019 143.7586,-119.0019 143.7586,-77.7981 263.8922,-77.7981 263.8922,-119.0019"/>
+<text text-anchor="middle" x="203.8254" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">AI内容生成引擎</text>
+<text text-anchor="middle" x="203.8254" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">(云端/第三方服务)</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="#000000" d="M265.7012,-164.5802C254.2663,-152.3499 241.3397,-138.524 230.2697,-126.6839"/>
+<polygon fill="#000000" stroke="#000000" points="232.6838,-124.1411 223.2976,-119.2268 227.5705,-128.9217 232.6838,-124.1411"/>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<polygon fill="none" stroke="#000000" points="125.4767,-119.0019 .1741,-119.0019 .1741,-77.7981 125.4767,-77.7981 125.4767,-119.0019"/>
+<text text-anchor="middle" x="62.8254" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">TTS语音合成服务</text>
+<text text-anchor="middle" x="62.8254" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">(云端/第三方服务)</text>
+</g>
+<!-- D&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>D-&gt;F</title>
+<path fill="none" stroke="#000000" d="M239.7196,-173.1055C203.8724,-157.9666 157.4805,-138.3745 121.2001,-123.0527"/>
+<polygon fill="#000000" stroke="#000000" points="122.3047,-119.7199 111.7308,-119.0536 119.5813,-126.1684 122.3047,-119.7199"/>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<polygon fill="none" stroke="#000000" points="501.2644,-119.0019 282.3864,-119.0019 282.3864,-77.7981 501.2644,-77.7981 501.2644,-119.0019"/>
+<text text-anchor="middle" x="391.8254" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">云端数据存储</text>
+<text text-anchor="middle" x="391.8254" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">(频道配置, 用户数据, 社区数据)</text>
+</g>
+<!-- D&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>D-&gt;G</title>
+<path fill="none" stroke="#000000" d="M326.9938,-164.8523C339.1447,-152.3978 352.9431,-138.2544 364.6777,-126.2264"/>
+<polygon fill="#000000" stroke="#000000" points="367.2062,-128.6467 371.6842,-119.0447 362.1957,-123.7584 367.2062,-128.6467"/>
+</g>
+<!-- E&#45;&gt;C -->
+<g id="edge7" class="edge">
+<title>E-&gt;C</title>
+<path fill="none" stroke="#000000" d="M180.8003,-119.0312C171.4571,-128.9305 161.7254,-141.5921 156.8254,-155.2 143.9397,-190.9849 148.6767,-235.4803 154.0707,-263.9143"/>
+<polygon fill="#000000" stroke="#000000" points="150.6962,-264.8815 156.1348,-273.9739 157.5533,-263.4744 150.6962,-264.8815"/>
+</g>
+<!-- F&#45;&gt;C -->
+<g id="edge8" class="edge">
+<title>F-&gt;C</title>
+<path fill="none" stroke="#000000" d="M73.2667,-119.0695C91.0144,-154.2027 127.0669,-225.572 146.9266,-264.8861"/>
+<polygon fill="#000000" stroke="#000000" points="143.9728,-266.8013 151.6058,-274.149 150.2209,-263.645 143.9728,-266.8013"/>
+</g>
+<!-- G&#45;&gt;B -->
+<g id="edge9" class="edge">
+<title>G-&gt;B</title>
+<path fill="none" stroke="#000000" d="M411.9725,-119.0187C420.5596,-129.1005 429.7522,-141.9121 434.8254,-155.2 457.4635,-214.4941 459.5224,-288.3046 457.7038,-336.7171"/>
+<polygon fill="#000000" stroke="#000000" points="454.1966,-336.8019 457.2475,-346.948 461.1897,-337.1139 454.1966,-336.8019"/>
+</g>
+<!-- J -->
+<g id="node10" class="node">
+<title>J</title>
+<polygon fill="none" stroke="#000000" points="502.8156,-41.4019 416.8352,-41.4019 416.8352,-.1981 502.8156,-.1981 502.8156,-41.4019"/>
+<text text-anchor="middle" x="459.8254" y="-25" font-family="Times,serif" font-size="14.00" fill="#000000">社交/社区服务</text>
+<text text-anchor="middle" x="459.8254" y="-8.2" font-family="Times,serif" font-size="14.00" fill="#000000">(云端后端)</text>
+</g>
+<!-- G&#45;&gt;J -->
+<g id="edge13" class="edge">
+<title>G-&gt;J</title>
+<path fill="none" stroke="#000000" d="M410.0482,-77.6046C417.6704,-68.9063 426.652,-58.6567 434.8726,-49.2756"/>
+<polygon fill="#000000" stroke="#000000" points="437.5941,-51.4805 441.5523,-41.6528 432.3294,-46.8671 437.5941,-51.4805"/>
+</g>
+<!-- I&#45;&gt;D -->
+<g id="edge12" class="edge">
+<title>I-&gt;D</title>
+<path fill="none" stroke="#000000" d="M343.4496,-273.9674C337.5216,-264.3619 329.9993,-252.1734 322.694,-240.3363"/>
+<polygon fill="#000000" stroke="#000000" points="325.6693,-238.4929 317.4389,-231.8212 319.7124,-242.1692 325.6693,-238.4929"/>
+</g>
+<!-- J&#45;&gt;B -->
+<g id="edge14" class="edge">
+<title>J-&gt;B</title>
+<path fill="none" stroke="#000000" d="M484.5565,-41.4303C494.4098,-51.2413 504.6296,-63.8339 509.8254,-77.6 516.3542,-94.8978 511.6824,-100.8046 509.8254,-119.2 501.9542,-197.173 481.0969,-285.857 467.1793,-339.3366"/>
+<polygon fill="#000000" stroke="#000000" points="463.7372,-338.6645 464.5802,-349.2258 470.5073,-340.4439 463.7372,-338.6645"/>
+</g>
+</g>
+</svg>
