@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1194pt" height="468pt" viewBox="0.00 0.00 1194.00 467.80">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 463.8)">
+<title>AIBC_Cover</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-463.8 1190,-463.8 1190,4 -4,4"/>
+<text text-anchor="middle" x="593" y="-441.4" font-family="Arial" font-size="16.00" fill="#000000">AIBC</text>
+<text text-anchor="middle" x="593" y="-422.2" font-family="Arial" font-size="16.00" fill="#000000">(AI Broadcast Center)</text>
+<text text-anchor="middle" x="593" y="-384" font-family="Arial" font-size="16.00" fill="#000000">你的专属广播 · 人人都是主理人</text>
+<g id="clust1" class="cluster">
+<title>cluster_backend</title>
+<polygon fill="#f9f9f9" stroke="#000000" points="388,-266 388,-367.2 1178,-367.2 1178,-266 388,-266"/>
+<text text-anchor="middle" x="783" y="-348.8" font-family="Arial" font-size="16.00" fill="#000000">后台核心技术</text>
+</g>
+<!-- UserListen -->
+<g id="node1" class="node">
+<title>UserListen</title>
+<polygon fill="#dff2ff" stroke="#000000" points="180,-332 0,-332 0,-274 180,-274 180,-332"/>
+<text text-anchor="middle" x="90" y="-307.2" font-family="Arial" font-size="14.00" fill="#000000">沉浸式收听</text>
+<text text-anchor="middle" x="90" y="-290.4" font-family="Arial" font-size="14.00" fill="#000000">(新闻 / 故事 / 科普)</text>
+</g>
+<!-- AIHost -->
+<g id="node3" class="node">
+<title>AIHost</title>
+<ellipse fill="#ffd6d6" stroke="#000000" cx="585" cy="-166" rx="72" ry="72"/>
+<text text-anchor="middle" x="585" y="-170.2" font-family="Arial" font-size="14.00" fill="#000000">AI 主播</text>
+<text text-anchor="middle" x="585" y="-153.4" font-family="Arial" font-size="14.00" fill="#000000">(持续生成内容)</text>
+</g>
+<!-- UserListen&#45;&gt;AIHost -->
+<g id="edge1" class="edge">
+<title>UserListen-&gt;AIHost</title>
+<path fill="none" stroke="#000000" d="M165.1054,-273.9464C173.1296,-271.1374 181.2056,-268.4325 189,-266 296.9164,-232.3207 424.0064,-201.8056 504.5326,-183.5761"/>
+<polygon fill="#000000" stroke="#000000" points="514.6042,-181.3052 505.8389,-187.8946 509.7267,-182.405 504.8491,-183.5048 504.8491,-183.5048 504.8491,-183.5048 509.7267,-182.405 503.8593,-179.115 514.6042,-181.3052 514.6042,-181.3052"/>
+</g>
+<!-- UserInteract -->
+<g id="node2" class="node">
+<title>UserInteract</title>
+<polygon fill="#e7f4e4" stroke="#000000" points="378,-332 198,-332 198,-274 378,-274 378,-332"/>
+<text text-anchor="middle" x="288" y="-307.2" font-family="Arial" font-size="14.00" fill="#000000">实时互动</text>
+<text text-anchor="middle" x="288" y="-290.4" font-family="Arial" font-size="14.00" fill="#000000">(语音/文本对话)</text>
+</g>
+<!-- UserInteract&#45;&gt;AIHost -->
+<g id="edge2" class="edge">
+<title>UserInteract-&gt;AIHost</title>
+<path fill="none" stroke="#000000" d="M350.9861,-273.9458C397.5364,-252.4731 461.0932,-223.1557 510.2238,-200.4927"/>
+<polygon fill="#000000" stroke="#000000" points="519.5349,-196.1977 512.3393,-204.4726 514.9947,-198.2921 510.4544,-200.3864 510.4544,-200.3864 510.4544,-200.3864 514.9947,-198.2921 508.5695,-196.3002 519.5349,-196.1977 519.5349,-196.1977"/>
+</g>
+<!-- CreatorTool -->
+<g id="node4" class="node">
+<title>CreatorTool</title>
+<polygon fill="#fffacd" stroke="#000000" points="577.2719,-58 386.7281,-58 386.7281,0 577.2719,0 577.2719,-58"/>
+<text text-anchor="middle" x="482" y="-33.2" font-family="Arial" font-size="14.00" fill="#000000">频道创作工具</text>
+<text text-anchor="middle" x="482" y="-16.4" font-family="Arial" font-size="14.00" fill="#000000">(模板 / 提示词 / 声音定制)</text>
+</g>
+<!-- AIHost&#45;&gt;CreatorTool -->
+<g id="edge3" class="edge">
+<title>AIHost-&gt;CreatorTool</title>
+<path fill="none" stroke="#000000" d="M541.6173,-108.2967C530.9737,-94.1398 519.8556,-79.3517 510.1436,-66.4337"/>
+<polygon fill="#000000" stroke="#000000" points="503.9836,-58.2403 513.5898,-63.5291 506.9882,-62.2368 509.9929,-66.2333 509.9929,-66.2333 509.9929,-66.2333 506.9882,-62.2368 506.3961,-68.9375 503.9836,-58.2403 503.9836,-58.2403"/>
+</g>
+<!-- PublishChannel -->
+<g id="node5" class="node">
+<title>PublishChannel</title>
+<polygon fill="#ffe4c4" stroke="#000000" points="782.3523,-58 595.6477,-58 595.6477,0 782.3523,0 782.3523,-58"/>
+<text text-anchor="middle" x="689" y="-33.2" font-family="Arial" font-size="14.00" fill="#000000">创建并发布频道</text>
+<text text-anchor="middle" x="689" y="-16.4" font-family="Arial" font-size="14.00" fill="#000000">(自定义风格 &amp; 互动策略)</text>
+</g>
+<!-- AIHost&#45;&gt;PublishChannel -->
+<g id="edge4" class="edge">
+<title>AIHost-&gt;PublishChannel</title>
+<path fill="none" stroke="#000000" d="M628.8039,-108.2967C639.5508,-94.1398 650.7768,-79.3517 660.5832,-66.4337"/>
+<polygon fill="#000000" stroke="#000000" points="666.803,-58.2403 664.3408,-68.9262 663.7798,-62.2228 660.7566,-66.2053 660.7566,-66.2053 660.7566,-66.2053 663.7798,-62.2228 657.1723,-63.4844 666.803,-58.2403 666.803,-58.2403"/>
+</g>
+<!-- LLM -->
+<g id="node6" class="node">
+<title>LLM</title>
+<polygon fill="#eef6ff" stroke="#000000" points="1164,-332 990,-332 990,-274 1170,-274 1170,-326 1164,-332"/>
+<polyline fill="none" stroke="#000000" points="1164,-332 1164,-326 "/>
+<polyline fill="none" stroke="#000000" points="1170,-326 1164,-326 "/>
+<text text-anchor="middle" x="1080" y="-298.8" font-family="Arial" font-size="14.00" fill="#000000">大语言模型 (LLM)</text>
+</g>
+<!-- LLM&#45;&gt;AIHost -->
+<g id="edge5" class="edge">
+<title>LLM-&gt;AIHost</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M1004.8946,-273.9464C996.8704,-271.1374 988.7944,-268.4325 981,-266 873.0836,-232.3207 745.9936,-201.8056 665.4674,-183.5761"/>
+<polygon fill="#000000" stroke="#000000" points="665.9207,-180.0906 655.3958,-181.3052 664.381,-186.9191 665.9207,-180.0906"/>
+</g>
+<!-- TTS -->
+<g id="node7" class="node">
+<title>TTS</title>
+<polygon fill="#eef6ff" stroke="#000000" points="966,-332 792,-332 792,-274 972,-274 972,-326 966,-332"/>
+<polyline fill="none" stroke="#000000" points="966,-332 966,-326 "/>
+<polyline fill="none" stroke="#000000" points="972,-326 966,-326 "/>
+<text text-anchor="middle" x="882" y="-298.8" font-family="Arial" font-size="14.00" fill="#000000">TTS 语音合成</text>
+</g>
+<!-- TTS&#45;&gt;AIHost -->
+<g id="edge6" class="edge">
+<title>TTS-&gt;AIHost</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M819.0139,-273.9458C772.4636,-252.4731 708.9068,-223.1557 659.7762,-200.4927"/>
+<polygon fill="#000000" stroke="#000000" points="661.0116,-197.2082 650.4651,-196.1977 658.0796,-203.5646 661.0116,-197.2082"/>
+</g>
+<!-- VoiceClone -->
+<g id="node8" class="node">
+<title>VoiceClone</title>
+<polygon fill="#eef6ff" stroke="#000000" points="768,-332 594,-332 594,-274 774,-274 774,-326 768,-332"/>
+<polyline fill="none" stroke="#000000" points="768,-332 768,-326 "/>
+<polyline fill="none" stroke="#000000" points="774,-326 768,-326 "/>
+<text text-anchor="middle" x="684" y="-298.8" font-family="Arial" font-size="14.00" fill="#000000">声音克隆技术</text>
+</g>
+<!-- VoiceClone&#45;&gt;AIHost -->
+<g id="edge7" class="edge">
+<title>VoiceClone-&gt;AIHost</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M663.0046,-273.9458C654.3219,-261.9303 643.8641,-247.4584 633.4671,-233.0706"/>
+<polygon fill="#000000" stroke="#000000" points="636.0603,-230.6834 627.3663,-224.6282 630.3866,-234.7834 636.0603,-230.6834"/>
+</g>
+<!-- Recommendation -->
+<g id="node9" class="node">
+<title>Recommendation</title>
+<polygon fill="#eef6ff" stroke="#000000" points="570,-332 396,-332 396,-274 576,-274 576,-326 570,-332"/>
+<polyline fill="none" stroke="#000000" points="570,-332 570,-326 "/>
+<polyline fill="none" stroke="#000000" points="576,-326 570,-326 "/>
+<text text-anchor="middle" x="486" y="-298.8" font-family="Arial" font-size="14.00" fill="#000000">个性化推荐引擎</text>
+</g>
+<!-- Recommendation&#45;&gt;AIHost -->
+<g id="edge8" class="edge">
+<title>Recommendation-&gt;AIHost</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M506.9954,-273.9458C515.6781,-261.9303 526.1359,-247.4584 536.5329,-233.0706"/>
+<polygon fill="#000000" stroke="#000000" points="539.6134,-234.7834 542.6337,-224.6282 533.9397,-230.6834 539.6134,-234.7834"/>
+</g>
+</g>
+</svg>
